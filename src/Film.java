@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Film extends Medium{
 
@@ -11,7 +11,7 @@ public class Film extends Medium{
 
    private String kommentar;
 
-    public Film(String titel, Genre genre, Urheber urheber, Date erscheinungsdatum, String regisseur, int spielzeitInMinuten, boolean HD, boolean UHD, String kommentar) {
+    public Film(String titel, Genre genre, Urheber urheber, LocalDate erscheinungsdatum, String regisseur, int spielzeitInMinuten, boolean HD, boolean UHD, String kommentar) {
         super(titel, genre, urheber, erscheinungsdatum);
         this.regisseur = regisseur;
         this.spielzeitInMinuten = spielzeitInMinuten;
