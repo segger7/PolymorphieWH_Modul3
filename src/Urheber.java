@@ -38,6 +38,4 @@ public class Urheber {
     public String toString() {
         return "Urheber [vorname=" + vorname + ", nachname=" + nachname + ", firmenname=" + firmenname + "]";
     }
-
-
 }
